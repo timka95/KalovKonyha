@@ -1,36 +1,26 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  .navbar-links {
-    overflow: hidden;
-    background-color: #ffffff;
-    list-style: none; /* Remove bullets from the list */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
-  
-  /* Style the list items */
-  .navbar-links li {
-    display: inline-block; /* Make the list items horizontal */
-  }
-  
-  /* Style the links */
-  .navbar-links a {
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .navbar-links a:hover {
-    background-color: #f8f8f8;
-    color: rgb(253, 164, 216);
-  }
-  
+.navbar-links {
+  background-color: #ffffff;
+  list-style: none; /* Remove bullets from the list */
+}
+
+/* Style the links */
+.navbar-links a {
+  display: block;
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar-links a:hover {
+  background-color: #f8f8f8;
+  color: rgb(253, 164, 216);
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 20px;
+  font-size: 20px;
+}
